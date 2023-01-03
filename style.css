@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'Merriweather Sans';
+  src: url('static/MerriweatherSans-Bold.ttf');
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+body, h1, h2, h4,p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  background: #22212C;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Merriweather Sans'; 
+}
+
+.retangulo{
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+/* informacoes pessoais */
+
+.info-pessoais{
+  max-width: 348px;
+  height: 100%;
+  margin: 40px;
+}
+
+/* fim informacoes pessoais */
+
+/* PROFILE */
+
+  .divProfile{
+    padding-top: 32px;
+    max-width: 348px;
+    min-width: 230px;
+    padding-bottom: 20px;
+  }
+
+  .profile img{
+    display: flex;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 30px auto;
+    border: 2px solid #00FF00;
+    border-radius: 50%;
+  }
+
+  .profile h2{
+    width: 196px;
+    height: 26px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #837E9F;
+    width: 100%;
+  }
+
+  .profile p{
+    margin-top: 15px;
+    width: 128px;
+    height: 17px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+    width: 100%;
+    text-align: center;
+  }
+
+/* FIM PROFILE */
+
+/* INICIO LINKS */
+
+  .links{
+    padding: 30px;
+    max-width: 348px;
+    min-width: 180px;
+    height: auto;
+  }
+
+  .divUnidadeLink{
+    display: flex;
+    padding: 5px 0 5px 0;
+  }
+
+  .link{
+
+    display: flex;
+    height: 24px;
+    width: 90%;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: #837E9F;
+    padding: 4px 4px 4px 12px;
+  }
+
+  .txtLinks a{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #837E9F;
+    /* margin: 5px; */
+    
+
+  }
+
+  .links img{
+    width: 24px;
+    height: 24px;
+  }
+
+/* FIM LINKS */
+
+/* INICIO TECNOLOGIAS */
+
+  .tecnologias{
+    min-width: 180px;
+    max-width: 400px;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+  }
+
+  .tech h2{
+    display: block;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    /* identical to box height */
+    color: #837E9F;
+  }
+
+  .techs{
+    text-align: center;
+    display: inline-flex;
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    margin: 5px;
+  }
+
+  .tech{
+    margin: 0 auto;
+    width: 97%;
+  }
+
+  .techs p{
+    width: 86px;
+    height: 11px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+  }
+
+/* FIM TECNOLOGIAS */
+
+/* INICIO EXPERIENCIAS */
+
+.experiencias{
+  max-width: 348px;
+  min-width: 180px;
+  padding: 30px 25px;
+  display: flex;
+}
+
+.divExperiencias h2{
+  width: 141px;
+  height: 26px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #837E9F;
+}
+
+.divExperiencias h4{ 
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+
+.divExperiencias p{ 
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-size:12px;
+  line-height: 18px;
+  color: #837E9F;
+  width: 70%;
+}
+
+.divUnidadeExperiencia{
+  margin-left: 20px;
+}
+
+
+/* FIM EXPERIENCIAS */
+
+/* INICIO EDUCAÇÃO */
+
+.educacao{
+  width: 348px;
+
+  padding: 30px 25px;
+}
+
+.divEducacao h2{
+  display: block;
+  width: 141px;
+  height: 26px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #837E9F;
+
+}
+
+.estudos h4{ 
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+
+.estudos p{ 
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-size:12px;
+  line-height: 18px;
+  color: #837E9F;
+}
+
+.educacao ul,li{
+  color: #837E9F;
+}
+
+/* FIM EDUCAÇÃO */
+
+/* INICIO CONTEUDO */
+
+.conteudo{
+  display: inline;
+  width: 956px;
+  margin: 40px 40px 0 20px;
+}
+
+.titulo{
+  width: 100%;
+  min-height: 86px;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 86px;
+}
+
+.titulo h2,a{
+  color:#837E9F;
+  height: 20px;
+}
+.titulo a{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.titulo h2{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.projetos{
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.DivProjeto{
+  width: calc(50% - 10px);
+  height: 186px;
+  margin: 20px 0 10px 0;
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;    
+}
+
+@media (width < 1000px) {
+  .DivProjeto{
+    width: 100%;
+  }
+}
+
+.DivProjeto h3{
+  width: 100%;
+  height: 17px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+  flex-wrap: wrap;
+}
+
+.tituloProjeto img{
+  width:16.67px;
+  height: 15px;
+}
+
+.tituloProjeto{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#textoProjeto{
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837E9F;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.DivProjeto p{
+  height: 19px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #837E9F;
+}
+
+.sub-info{
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  height: 16px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837E9F;
+
+  justify-content: space-between;
+}
+
+
+.js {
+  display: list-item;
+  list-style-image: url(img/Ellipse\ 2ellipse2.png);
+  text-align: right;
+  
+}
+.starShare{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50%;
+}
+.star{
+  width: 15%;
+  gap: 5px;
+  display: flex;
+}
+.star img{
+  width: 18px;
+  height: 18px;
+}
+.share{
+  width: 15%;
+  gap: 5px;
+  display: flex;
+}
+.share img{
+  width: 18px;
+  height: 18px;
+}
+
+
+/* FIM CONTEUDO */
